@@ -14,6 +14,7 @@ gene_name<-"TP53"
 
 
 ```
+```{R Basics}
 exercise
 
 Q1
@@ -26,4 +27,12 @@ The calling variable is not the same in this case. The right variable should be 
 Q2
 format ----- 
 # yourname_pathway <- c('gene 1', 'gene 2')
-ANS 2 tavleen_pathway<-c('UHRF1','CPNE1'
+ANS 2 tavleen_pathway<-c('UHRF1','CPNE1')
+
+Q3
+numbers<-c('5','6')
+genes<-c('A','B')
+data.frame(numbers,genes)
+
+
+```
